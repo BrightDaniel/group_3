@@ -1,0 +1,4 @@
+bright_is_cool
+precious_is_cooler
+but_both_are_cute
+
