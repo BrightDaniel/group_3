@@ -1,0 +1,34 @@
+#!/bin/bash
+
+echo "Enter Two Numbers: "
+read num1
+read num2
+
+
+echo "Enter an operator (+,-,*,/):"
+read operator
+
+
+if [ $operator = "+" ]
+then 
+	result=$(echo "$num1 + $num2" | bc -l)
+
+	
+elif [ $operator = "-" ]
+then
+	result=$(echo "$num1 - $num2" | bc -l)
+
+
+elif [ $operator = "*" ]
+then
+	result=$(echo "$num1 * $num2" | bc -l)
+
+
+elif [ $operator = "/" ]
+then	
+	result=$(echo "$num1 / $num2" | bc -l)
+
+fi
+
+echo "Result: $result" 
+
