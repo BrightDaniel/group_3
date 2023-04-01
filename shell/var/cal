@@ -1,0 +1,19 @@
+#!/bin/bash
+
+read -p "Enter num 1: " num1
+
+read -p "Enter operand: " oper
+
+read -p "Enter num 2: " num2
+
+if [ $oper == + ]
+then
+	val=`expr $num1 + $num2`
+
+	echo " $num1 + $num2 = $val "
+fi
+
+if [ $oper == - ]
+then
+		echo "$((num1 - num2))"
+fi

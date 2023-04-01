@@ -1,0 +1,12 @@
+#!/bin/bash
+
+#echo "Enter your username: "
+
+#read name
+
+#echo "your username is  $name"
+
+
+read -p "Enter Your Name: " name
+
+echo "Welcome $name!"
