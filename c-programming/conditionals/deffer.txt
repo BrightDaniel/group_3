@@ -1,0 +1,1 @@
+We have 13 cohorts. Deffer any user that his score is less than 70% for the current month, to a previous cohort. As long as that user is not in the last cohort and if the not able to meet the probation cuttoff then kick out the user.
