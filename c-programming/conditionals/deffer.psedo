@@ -1,0 +1,9 @@
+Step 1: Get the users name, cohort. - (good)
+
+Step 2: Depending on the users cohort, ask the user for probation score or monthly score.
+	if cohort 13,  then probaion score.
+	any other cohort, monthly score.
+
+Step 3: If probation score < 80; kick  out.
+
+Step 4: if monthly score < 70, deffer to prev cohort.

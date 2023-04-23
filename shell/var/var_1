@@ -1,0 +1,7 @@
+#!/bin/bash
+
+name="collins"
+grade="a"
+class="5"
+
+echo "Hello $name, you are in class $class, and your grade is $grade"

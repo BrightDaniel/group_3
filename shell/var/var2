@@ -1,0 +1,9 @@
+#!/bin/bash
+
+read -p "Enter Your Name: " name
+
+read -p "Enter Your Cohort: " cohort
+
+read -p "Enter Your scores: " scores
+
+echo "Welcome $name, your cohort is $cohort, and your score is $scores!"
