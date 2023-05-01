@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo "enter first number"
+read p
+echo "enter second number"
+read q
+echo  "enter the  operator"
+read r
+mul=`expr $p \$r $q`
+echo  "the answer is " $mul

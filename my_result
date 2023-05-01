@@ -1,0 +1,28 @@
+#!/bin/bash
+
+echo "Enter your username: "
+read username
+
+
+echo "Enter your cohort: "
+read cohort
+
+
+echo "Enter your scores: " 
+read scores
+
+
+if [ $scores -gt 80 ]
+then
+	echo "You are so good, weldone"
+
+
+elif [ $scores -eq 80 ]
+then
+	echo "You are lucky"
+
+
+else
+       echo "You are out"
+       
+fi
