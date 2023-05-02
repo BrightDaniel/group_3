@@ -1,0 +1,2 @@
+Write a program in C to display the multiplication table vertically from 1 to n.
+Write your answer in the file task1.c in a folder called answers.
