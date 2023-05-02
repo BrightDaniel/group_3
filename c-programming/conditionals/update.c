@@ -40,7 +40,7 @@ int main()
 				else if (pro_score > 79 && pro_score < 200) 
 					printf("Congratulations \n");
 				else
-				printf("Invalid \n");
+				printf("Invalid input \n");
 		}
 
 		else if (cohort != 13)
@@ -58,7 +58,7 @@ int main()
 					printf("Congratulations \n");
 
 				else 
-					printf("Invalid \n");
+					printf("Invalid input \n");
 
 		}
 
