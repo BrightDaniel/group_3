@@ -2,13 +2,13 @@
 
 int main()
 	{	
-		int y = 0;
-		for (; y < 8; y++)
+		int h = 0;
+		for (; h < 8; h++)
 		{
 		
 			for (int i = 1; i <= 12; i++)
 			{	
-				int k = (y + 1);
+				int k = (h + 1);
 				int j = (k * i);
 				printf("%d * %d = %d, \n", k, i, j);
 			
