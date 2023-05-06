@@ -2,17 +2,13 @@
 
 int main()
 {
-	for (int j = 0; j <= 5; j++)
+	for (int i = 1; i <= 9; i++)
 	{
-		for (int i = 1; i <= j; i++)
-		{	
-			for(int y = 0; y <= j; y++)
-			{
-				int k = (y + i);
-				printf("%d ", k);
-			}
+		for (int j = 1; j <= i; j++)
+		{
+			printf("%d ", i);
 		}
 		printf("\n");
 	}
-	printf("\n");
+
 }
