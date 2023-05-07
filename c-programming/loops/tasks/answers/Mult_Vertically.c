@@ -13,17 +13,19 @@ int main()
 	printf("input the value of mul:  ");
 	scanf("%d", &mul);
 
-	for (i = 1; i <= mul; i++)
+	printf("Multiplication table from 1 to %d \n",mul);
+	for (i = 1; i <= 10; i++)
 	{
-		printf("Multiplication table of %d: \n", i);
 		
-		for (j = 1; j <= 12; j++)
+		for (j = 1; j <= mul; j++)
 		{
-			printf("%d * %d = %d \n",i, j, i * j);
-			
+			if(j <= mul - 1)
+				printf("%d * %d = %d, ", j, i, i * j);
+			else
+				printf("%d * %d = %d", j, i, i * j);
 
 		}
-		;
+
 	}
-	//printf("\n \n");
+	printf("\n");
 }
