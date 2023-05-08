@@ -2,15 +2,15 @@
 
 int main()
 	{	
-		int h = 0;
-		for (; h < 8; h++)
+		int h = 1;
+		for (; h <= 8; h++)
 		{
 		
-			for (int i = 1; i <= 12; i++)
+			for (int i = 1; i <= 10; i++)
 			{	
-				int k = (h + 1);
-				int j = (k * i);
-				printf("%d * %d = %d, \n", k, i, j);
+				//int k = (h + 1);
+				//int j = (k * i);
+				printf("%d*%d = %d,   ", i, h, i * h);
 			
 			}
 				printf("\n");
