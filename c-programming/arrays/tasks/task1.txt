@@ -1,0 +1,2 @@
+Write a program to print out the name, and scores of a particular user, for the past 12 months.
+
