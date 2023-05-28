@@ -1,0 +1,18 @@
+Print out the average score of 9 students in 9 subjects using arrays.
+
+Subjects are : 
+
+Maths, English, Biology, Computer science, Government, Pyhsics, Chemistry, Social studies, Accounting.
+
+
+Grade each student according to   the average score: 
+
+85 - 100 = A
+70 - 84 = B
+51 - 69 = C
+41 - 50 = D
+30 - 40 = E
+0 - 29 = F
+
+Write down your thought process in a file called students_thought_process.txt
+Write down your answer in a file called students_score.c
