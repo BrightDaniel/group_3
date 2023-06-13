@@ -42,11 +42,11 @@ int main()
 
 		averages[i] = sum / NUM_SUBJECTS;
 
-		if (averages[i] >= 85 && averages[i] <= 100)
+		if (averages[i] >= 85 && averages[i] < 100)
 		{
 			grades[i] = 'A';
-		}`
-		else if (averages[i] >= 70 && averages[i] <= 84)
+		}
+		else if (averages[i] >= 70 && averages[i] < 84)
 		{
 			grades[i] = 'B';
 		}
@@ -55,11 +55,11 @@ int main()
 			grades[i] = 'C';
 		}
 
-		else if (averages[i] >= 41 && averages[i] <= 50)
+		else if (averages[i] >= 41 && averages[i] < 50)
 		{
 			grades[i] = 'D';
 		}
-		else if (averages[i] >= 30 && averages[i] <= 40)
+		else if (averages[i] >= 30 && averages[i] < 40)
 		{
 			grades[i] = 'E';
 		}

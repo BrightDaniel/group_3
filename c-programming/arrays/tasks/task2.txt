@@ -16,3 +16,5 @@ Grade each student according to   the average score:
 
 Write down your thought process in a file called students_thought_process.txt
 Write down your answer in a file called students_score.c
+
+
