@@ -1,0 +1,1 @@
+Get the sum of num of an input from the user.

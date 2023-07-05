@@ -1,0 +1,4 @@
+Get all odd numbers from n - n.
+Avoid infinite loop.
+
+Write all the answers of this tasks in a folder called answers.
